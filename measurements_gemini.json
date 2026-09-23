@@ -1,0 +1,52 @@
+{
+  "provider": "Google Gemini",
+  "model": "gemini-3.5-flash-lite",
+  "measured_at_utc": "2026-09-20T17:46:45.235421+00:00",
+  "token_counts": {
+    "sentence": {
+      "en": 13,
+      "ru": 18,
+      "kk": 31
+    },
+    "complaint": {
+      "en": 60,
+      "ru": 79,
+      "kk": 149
+    },
+    "system_prompt": {
+      "en": 41,
+      "ru": 52,
+      "kk": 88
+    }
+  },
+  "complaint_ratios": {
+    "ru_over_en": 1.3166666666666667,
+    "kk_over_en": 2.4833333333333334
+  },
+  "one_request_billed": {
+    "en": {
+      "input_tokens": 101,
+      "visible_output_tokens": 76,
+      "thinking_tokens": 0,
+      "billable_output_tokens": 76,
+      "total_tokens": 177,
+      "answer": "I cannot answer your question or perform this action because the required documents (the contract and the statement) and the specific details regarding your account are not provided in the documents available to me. Furthermore, as an AI support assistant, I do not have access to your personal account records or the ability to modify account terms. Please contact your local branch directly for assistance with your deposit rate."
+    },
+    "ru": {
+      "input_tokens": 131,
+      "visible_output_tokens": 75,
+      "thinking_tokens": 0,
+      "billable_output_tokens": 75,
+      "total_tokens": 206,
+      "answer": "Добрый день. Пожалуйста, предоставьте текст или условия вашего договора и выписки, так как в предоставленной мне системе на данный момент нет документов по вашему счёту. \n\nБез этих документов я не могу ответить на вопрос об основаниях изменения ставки. Пожалуйста, отправьте информацию из документов, и я обязательно проверю её в соответствии с регламентом банка."
+    },
+    "kk": {
+      "input_tokens": 237,
+      "visible_output_tokens": 190,
+      "thinking_tokens": 0,
+      "billable_output_tokens": 190,
+      "total_tokens": 427,
+      "answer": "Қайырлы күн! Өтінішіңізді қарастыру үшін бізге шотыңыздың нөмірі, ставканың мөлшері немесе депозит ашылған нақты күн сияқты деректер қажет. \n\nӨкінішке орай, сіздің хабарламаңызда немесе берілген құжаттарда бұл ақпарат жоқ, сондықтан мөлшерлеменің қандай негізде өзгертілгенін және бастапқы шарттарды қалпына келтіру мүмкіндігін бұл құжаттар бойынша анықтау мүмкін емес. \n\nБұл мәселені нақтылау үшін бізге шот нөмірін немесе шарттың толық мәліметтерін ұсынуыңызды сұраймыз."
+    }
+  }
+}

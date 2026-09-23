@@ -1,0 +1,46 @@
+{
+  "requests_per_day": 5000,
+  "requests_per_year": 1825000,
+  "results": {
+    "Gemini 3.5 Flash-Lite": {
+      "en": {
+        "input_tokens": 101,
+        "billable_output_tokens": 76,
+        "cost_per_request_usd": 0.00022030000000000002,
+        "annual_cost_usd": 402.0475
+      },
+      "ru": {
+        "input_tokens": 131,
+        "billable_output_tokens": 75,
+        "cost_per_request_usd": 0.0002268,
+        "annual_cost_usd": 413.91
+      },
+      "kk": {
+        "input_tokens": 237,
+        "billable_output_tokens": 190,
+        "cost_per_request_usd": 0.0005461,
+        "annual_cost_usd": 996.6324999999999
+      }
+    },
+    "Gemini 3.5 Flash": {
+      "en": {
+        "input_tokens": 101,
+        "billable_output_tokens": 465,
+        "cost_per_request_usd": 0.0043365,
+        "annual_cost_usd": 7914.1125
+      },
+      "ru": {
+        "input_tokens": 131,
+        "billable_output_tokens": 889,
+        "cost_per_request_usd": 0.0081975,
+        "annual_cost_usd": 14960.4375
+      },
+      "kk": {
+        "input_tokens": 237,
+        "billable_output_tokens": 1284,
+        "cost_per_request_usd": 0.0119115,
+        "annual_cost_usd": 21738.4875
+      }
+    }
+  }
+}

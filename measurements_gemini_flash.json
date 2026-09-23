@@ -1,0 +1,52 @@
+{
+  "provider": "Google Gemini",
+  "model": "gemini-3.5-flash",
+  "measured_at_utc": "2026-09-20T17:52:43.975843+00:00",
+  "token_counts": {
+    "sentence": {
+      "en": 13,
+      "ru": 18,
+      "kk": 31
+    },
+    "complaint": {
+      "en": 60,
+      "ru": 79,
+      "kk": 149
+    },
+    "system_prompt": {
+      "en": 41,
+      "ru": 52,
+      "kk": 88
+    }
+  },
+  "complaint_ratios": {
+    "ru_over_en": 1.3166666666666667,
+    "kk_over_en": 2.4833333333333334
+  },
+  "one_request_billed": {
+    "en": {
+      "input_tokens": 101,
+      "visible_output_tokens": 53,
+      "thinking_tokens": 412,
+      "billable_output_tokens": 465,
+      "total_tokens": 566,
+      "answer": "Good afternoon. \n\nSince the contract and statement you mentioned are not provided or accessible in this chat, I do not have the documents necessary to review your account details. Therefore, I cannot explain the basis on which your rate was changed or restore the original terms."
+    },
+    "ru": {
+      "input_tokens": 131,
+      "visible_output_tokens": 99,
+      "thinking_tokens": 790,
+      "billable_output_tokens": 889,
+      "total_tokens": 1020,
+      "answer": "Добрый день. \n\nК сожалению, в нашем диалоге отсутствуют прикрепленные вами документы (договор и выписка). Поскольку я могу отвечать только на основе предоставленных документов, а в текущем контексте их нет, я не могу установить причину изменения процентной ставки по вашему счету или восстановить первоначальные условия.\n\nПожалуйста, обратитесь в службу поддержки банка с предоставлением данных документов, чтобы специалисты могли детально изучить вашу ситуацию."
+    },
+    "kk": {
+      "input_tokens": 237,
+      "visible_output_tokens": 239,
+      "thinking_tokens": 1045,
+      "billable_output_tokens": 1284,
+      "total_tokens": 1521,
+      "answer": "Қайырлы күн!\n\nӨкінішке орай, қазіргі уақытта маған сіз қоса тіркеген құжаттардың (шарт пен үзінді көшірменің) мәтіні қолжетімді емес. Маған ұсынылған құжаттардың ішінде бұл ақпарат болмағандықтан, мен сіздің шотыңыз бойынша пайыздық мөлшерлеменің неліктен өзгертілгенін түсіндіре алмаймын және бастапқы шарттарды қалпына келтіру мүмкіндігі туралы сұраққа жауап бере алмаймын.\n\nБұл мәселені нақты шешу үшін жеке басыңызды куәландыратын құжатпен бірге банктің жақын маңдағы бөлімшесіне хабарласуыңызды немесе банктің ресми байланыс орталығына хабарласып, деректеріңізді тексертуді сұраймын."
+    }
+  }
+}

@@ -1,0 +1,8 @@
+﻿PART 1 PREDICTION - recorded before Part 2
+
+COMPLAINT token ratio prediction:
+RU / EN = 1.60x
+KK / EN = 2.20x
+
+Reason:
+The prediction is based on the offline byte measurements and the tokenizer differences seen in Part 0. Bytes are not tokens, so I expect the measured API ratios to be different.
